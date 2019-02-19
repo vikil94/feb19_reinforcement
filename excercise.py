@@ -7,8 +7,6 @@ emotions = {'joy' : 3,
             'anger': 3 }
 
 
-# for emotion, level in emotions.items():
-#     print("{} felt at level {}".format(emotion, level))
 
 
 # excercise 2
@@ -25,7 +23,7 @@ class Person:
 # excercise 3
  # going through a loop that looks for the key which is emotion in this case
  # and the value which is level. It sorts through the emotions dictionary
- 
+
     def show_emotions(self):
         for emotion, level in emotions.items():
             display_emotion = None
