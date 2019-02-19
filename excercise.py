@@ -23,8 +23,9 @@ class Person:
         return "This is your person class: {} and this is my emotions dictionary {}".format(self.name, self.emotions)
 
 # excercise 3
- # going through a loop that looks for the key which is emotion in this case 
+ # going through a loop that looks for the key which is emotion in this case
  # and the value which is level. It sorts through the emotions dictionary
+ 
     def show_emotions(self):
         for emotion, level in emotions.items():
             display_emotion = None
